@@ -1,0 +1,73 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+backend/.env
+!.env.example
+!backend/.env.example
+
+# =========================
+# Node.js / Vite
+# =========================
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Build / Cache
+# =========================
+.cache/
+.eslintcache
+
+# =========================
+# Python Bytecode (Backend)
+# =========================
+backend/__pycache__/
+backend/routes/__pycache__/
+backend/services/__pycache__/
+backend/models/__pycache__/
+
+# =========================
+# Misc
+# =========================
+*.sqlite3
+*.db
